@@ -1,5 +1,5 @@
-h1, h2, h3, h4 {
-  color: #0078C1;
+h2, h3, h4 {
+  color: #6a272d;
   font-family: 'Oswald', arial, serif;
   font-weight: bold;
 }
@@ -26,27 +26,47 @@ p {
 }
 
 body {
-  background-color: #0078C1;
+  background-color: #6a272d;
   font-family: Arial, serif;
 }
 
+
 /*================ Header =======================*/
 #header {
+  height: 800px;
   margin: 0 auto;
-  width: 940px;
+  padding: 0;
 }
 
 #header h1 {
+  width: 600px;
+  margin: 0 auto;
   color: #FFF;
-  padding: 10px 0;
-  text-align: center;
+  font-size: 64px;
+  position: relative;
 }
 
+#header h1 .word3, #header h1 .word4 {
+  position: absolute;
+  top: 60px;
+}
+
+#header h1 span {
+  left: 182px;
+  position: absolute;
+  top: 60px;
+}
+
+#header h2 {
+  color: #FFF;
+  text-align: center;
+}
 /*================ Container =======================*/
 
 #container {
   background: rgba(255, 255, 255, 0.9);
-  padding: 6px;
+  background-color: #fde57d;
+  padding: 35px 0;
 }
 
 #inner-container {
@@ -60,15 +80,14 @@ body {
 
 /*================ Footer =======================*/
 #footer {
-  background: #FFF;
+  background: #6A272D;
   border-top: 1px solid rgba(0, 120, 193, 0.4);
-  height: 100%;
 }
 
 /*================ Place =======================*/
 
 #place-info ul li strong {
-  color: #0078C1;
+  color: #702930;
   font-weight: bold;
 }
 
