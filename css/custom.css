@@ -46,15 +46,16 @@ body {
   position: relative;
 }
 
-#header h1 .word3, #header h1 .word4 {
-  position: absolute;
-  top: 60px;
-}
-
 #header h1 span {
   left: 182px;
   position: absolute;
   top: 60px;
+}
+
+#branding {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
 }
 
 #header p {
@@ -69,6 +70,20 @@ body {
   color: #FFF;
   text-align: center;
 }
+
+.arrow {
+  background: url('../img/arrow.png') no-repeat; 
+  position: absolute;
+  left: 30px;
+}
+
+.arrow a {
+  display: block;
+  width: 173px;
+  height: 193px;
+}
+
+
 /*================ Container =======================*/
 
 #container {
