@@ -1,26 +1,23 @@
-h1 { 
+h1, h2, h3, h4 {
+  color: #0078C1;
   font-family: 'Oswald', arial, serif;
-  font-size: 24px;
   font-weight: bold;
+}
+
+h1 { 
+  font-size: 24px;
 }
 
 h2 {
-  font-family: 'Oswald', arial, serif;
   font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
 }
 
 h3 {
-  font-family: 'Oswald', arial, serif;
   font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 6px;
 }
 
 h4 {
   font-size: 16px;
-  font-family: 'Oswald', arial, serif;
 }
 
 p {
@@ -29,20 +26,23 @@ p {
 }
 
 body {
-  background-color: #0078c1;
+  background-color: #0078C1;
   font-family: Arial, serif;
 }
 
+/*================ Header =======================*/
 #header {
   margin: 0 auto;
   width: 940px;
 }
 
 #header h1 {
-  color: #fff;
+  color: #FFF;
   padding: 10px 0;
   text-align: center;
 }
+
+/*================ Container =======================*/
 
 #container {
   background: rgba(255, 255, 255, 0.9);
@@ -50,41 +50,25 @@ body {
 }
 
 #inner-container {
-  background: #fff;
-}
-
-#information {
-  height: 100%;
-  float: left;
-  padding: 15px;
-  padding-bottom: 0;
-  width: 450px;
+  background: #FFF;
 }
 
 #information-main {
+  background: #FFF;
   padding: 6px 12px;
-  background: #fff;
 }
 
+/*================ Footer =======================*/
 #footer {
+  background: #FFF;
   border-top: 1px solid rgba(0, 120, 193, 0.4);
-  background: #fff;
+  height: 100%;
 }
 
-.box {
-  box-shadow: 2px 2px 2px #888;
-  background: #fff;
-  margin: 6px 0;
-  padding: 6px;
-  -moz-border-radius: 2px;
-  -moz-box-shadow: 2px 2px 2px #888;
-  -webkit-box-shadow: 2px 2px 2px #888;
-}
-
-/*================ #Place =======================*/
+/*================ Place =======================*/
 
 #place-info ul li strong {
-  color: #0078c1;
+  color: #0078C1;
   font-weight: bold;
 }
 
@@ -94,4 +78,16 @@ body {
 
 #place-info ul li {
   margin: 6px 0;
+}
+
+/*================ Extras =======================*/
+
+.box {
+  box-shadow: 2px 2px 2px #888;
+  background: #FFF;
+  margin: 6px 0;
+  padding: 6px;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
 }
