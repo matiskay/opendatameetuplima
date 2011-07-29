@@ -1,0 +1,92 @@
+h1 { 
+  font-family: 'Oswald', arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Oswald', arial, serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Oswald', arial, serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: 'Oswald', arial, serif;
+}
+
+p {
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+body {
+  background-color: #0078c1;
+  font-family: Arial, serif;
+}
+
+#header {
+  margin: 0 auto;
+  width: 940px;
+}
+
+#header h1 {
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px;
+}
+
+#inner-container {
+  background: #fff;
+}
+
+#information {
+  height: 100%;
+  float: left;
+  padding: 15px;
+  padding-bottom: 0;
+  width: 450px;
+}
+
+#information-main {
+  padding: 6px 12px;
+  background: #fff;
+}
+
+#footer {
+  border-top: 1px solid rgba(0, 120, 193, 0.4);
+  background: #fff;
+}
+
+.box {
+  background: #fff;
+  margin: 6px 0;
+  padding: 6px;
+}
+/*================ #Place =======================*/
+
+#place-info ul li strong {
+  color: #0078c1;
+  font-weight: bold;
+}
+
+#place-info ul {
+  list-style: none;
+}
+
+#place-info ul li {
+  margin: 6px 0;
+}
