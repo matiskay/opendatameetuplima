@@ -72,10 +72,15 @@ body {
 }
 
 .box {
+  box-shadow: 2px 2px 2px #888;
   background: #fff;
   margin: 6px 0;
   padding: 6px;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
 }
+
 /*================ #Place =======================*/
 
 #place-info ul li strong {
