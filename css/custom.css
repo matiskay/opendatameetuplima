@@ -57,6 +57,14 @@ body {
   top: 60px;
 }
 
+#header p {
+  color: #FFF;
+  margin: 55px auto;
+  padding-right: 50px;
+  text-align: right;
+  width: 600px;
+}
+
 #header h2 {
   color: #FFF;
   text-align: center;
