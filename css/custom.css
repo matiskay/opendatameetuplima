@@ -33,7 +33,8 @@ body {
 
 /*================ Header =======================*/
 #header {
-  height: 800px;
+  background: url('../img/background.png');
+  height: 725px;
   margin: 0 auto;
   padding: 0;
 }
