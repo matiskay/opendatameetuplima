@@ -124,12 +124,12 @@ a {
 
 /*================ Footer =======================*/
 #footer {
-  background: #6A272D;
-  border-top: 6px solid #FFFFFF;
+  background: #6A272D url('../img/buildings.png') repeat-x 20px 0;
 }
 
 #sponsors {
   padding: 35px 0;
+  margin-top: 70px;
 }
 
 #sponsors ul {
