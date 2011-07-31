@@ -22,12 +22,18 @@ h4 {
 
 p {
   font-size: 16px;
+  line-height: 1.5em;
   padding: 6px 0;
 }
 
 body {
   background-color: #6a272d;
   font-family: Arial, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #6a272d;
 }
 
 
@@ -88,7 +94,7 @@ body {
 /*================ Container =======================*/
 
 #container {
-  background: rgba(255, 255, 255, 0.9);
+  background: url('../img/container_background.jpg') repeat-x;
   background-color: #fde57d;
   padding: 35px 0;
 }
@@ -109,10 +115,35 @@ body {
   padding: 6px 12px;
 }
 
+#container a:hover {
+  background: #61272d;
+  color: #fff;
+}
+
 /*================ Footer =======================*/
 #footer {
   background: #6A272D;
   border-top: 1px solid rgba(0, 120, 193, 0.4);
+}
+
+#sponsors {
+  padding: 35px 0;
+}
+
+#sponsors ul {
+  list-style: none;
+}
+
+#sponsors ul li {
+  float: left;
+  margin-right: 45px;
+}
+
+#sponsors ul li.last {
+  margin-right: 0;
+}
+
+#sponsors ul li a {
 }
 
 /*================ Place =======================*/
