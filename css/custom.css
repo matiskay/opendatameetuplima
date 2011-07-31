@@ -145,7 +145,11 @@ a {
   margin-right: 0;
 }
 
-#sponsors ul li a {
+#sponsors ul li a:hover img {
+  background: #fff;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
 }
 
 /*================ Place =======================*/
@@ -161,6 +165,10 @@ a {
 
 #place-info ul li {
   margin: 6px 0;
+}
+
+#place-info ul li a {
+  color: #000000;
 }
 
 /*================ Schedule =======================*/
