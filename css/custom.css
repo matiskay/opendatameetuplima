@@ -40,6 +40,27 @@ a {
   font-weight: bold;
 }
 
+#blockquote {
+  font-style: italic;
+  padding: 12px 20px 24px 20px;
+  background: #fff;
+  margin-bottom: 12px;
+  color: #6A272D;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 2px 2px 2px #888;
+  -webkit-box-shadow: 2px 2px 2px #888;
+}
+
+#blockquote blockquote {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#blockquote blockquote strong {
+  color: #6A272D;
+}
 
 /*================ Header =======================*/
 #header {
