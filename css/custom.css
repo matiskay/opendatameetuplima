@@ -233,9 +233,29 @@ strong {
 }
 
 /*================ Goals ========================*/
+#goals li strong {
+  color: #702930;
+  font-weight: bold;
+}
+
 #goals ul {
-  list-style-position: outside;
-  margin: 0 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#goals ul li {
+}
+
+#goals ul li {
+  background-color: #DFDFDF; 
+  line-height: 1.5em;
+  margin-bottom: 12px;
+  padding: 12px;
+  -moz-border-radius: 2px;
+  font-weight: bold;
+}
+
+#goals li a {
 }
 
 /*================ Extras =======================*/
@@ -284,4 +304,8 @@ p.column.last {
 
 .column strong {
   color: #6A272D;
+}
+
+.center {
+  text-align: center;
 }
