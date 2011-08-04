@@ -231,6 +231,13 @@ a {
 #whoshouldgo p {
   padding: 6px 0px 12px 0;
 }
+
+/*================ Goals ========================*/
+#goals ul {
+  list-style-position: outside;
+  margin: 0 20px;
+}
+
 /*================ Extras =======================*/
 
 .box {
