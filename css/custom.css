@@ -35,8 +35,7 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: #6a272d;
+  color: #6A272D;
   font-weight: bold;
 }
 
@@ -61,6 +60,11 @@ a {
 #blockquote blockquote strong {
   color: #6A272D;
 }
+
+strong {
+  color: #6A272D;
+}
+
 
 /*================ Header =======================*/
 #header {
@@ -192,10 +196,6 @@ a {
   margin: 6px 0;
 }
 
-#place-info ul li a {
-  color: #000000;
-}
-
 /*================ Schedule =======================*/
 #schedule-info li strong {
   color: #702930;
@@ -273,4 +273,8 @@ p.column.last {
 
 .hour {
   text-transform: uppercase;
+}
+
+.column strong {
+  color: #6A272D;
 }
